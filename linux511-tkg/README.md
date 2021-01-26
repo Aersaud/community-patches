@@ -7,3 +7,5 @@
 
 - amd-schedutil-fix.mypatch - Fixes: 41ea667227ba ("x86, sched: Calculate frequency invariance for AMD systems")
 Fixes: 976df7e5730e ("x86, sched: Use midpoint of max_boost and max_P for frequency invariance on AMD EPYC")
+
+- amd-fix-gpu-fan-regression-.mypatch - Fixes regression that is created from this patch. The problem is when controlling fans on an AMD gpu. Please see bug https://gitlab.freedesktop.org/drm/amd/-/issues/1408 for more information.
